@@ -2,3 +2,12 @@ https://learning.oreilly.com/videos/tips-tricks-and/9781789139235/9781789139235-
 https://dzone.com/articles/code-analysis-with-sonarqube-part-1-setup
 https://docs.sonarqube.org/latest/
 https://dzone.com/articles/how-quickly-get-started-sonar
+
+
+http://svnbook.red-bean.com/en/1.7/svn.ref.svnsync.html
+https://help.cloudforge.com/hc/en-us/articles/215242703-Creating-an-SVN-backup-with-svnsync
+https://www.cardinalpath.com/how-to-use-svnsync-to-create-a-mirror-backup-of-your-subversion-repository/
+http://svn.apache.org/repos/asf/subversion/trunk/notes/svnsync.txt
+https://resources.collab.net/blogs/mirroring-repositories-with-svnsync
+https://www.linux.org/docs/man1/svnsync.html
+http://www.microhowto.info/howto/mirror_a_subversion_repository.html
