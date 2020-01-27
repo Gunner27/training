@@ -1,0 +1,65 @@
+﻿Continuous Integration - Benefits
+• Immediate bug detection
+• A deployable system at any given point
+
+Jenkins is the leading open-source continuous integration tool. It is cross-platform and can be used on Windows, Linux,
+Mac OS and Solaris environments. Jenkins is written in Java. Jenkin's chief usage is to monitor any job which can be SVN
+checkout, cron or any application states. It fires pre-configured actions when a particular step occurs in jobs.
+Some of the Important Features of Jenkins are as below.
+• Change Support: Jenkins generates the list of all changes done in repositories like SVN.
+• Permanent links: Jenkins provides direct links to the latest build or failed build that can be used for easy
+communication
+• Multiple VMs: Jenkins can be configured to distribute the build on multiple machines.
+• TestNG test: Jenkins can be configured to run the automation test build on TestNG after each build of SVN.
+• Plugins: 3rd party plugin can be configured in Jenkins to use features and additional functionality.
+• Project build: Jenkins documents the details of jar, version of jar and mapping of build and jar numbers.
+• Installation: Jenkins is easy to install either using direct installation file (exe) or war file to deploy using
+application server.
+• Email integration: Jenkins can be configured to email the content of the status of the build.
+• Easy Configuration: To configure various tasks on Jenkins is easy.
+
+What can Jenkins do?
+• Generate test reports
+• Integrate with many different version control systems
+• Push to various artefact repositories
+• Deploys directly to production or test environments
+• Notify stakeholders of build status
+
+How Jenkins work - Setup
+Associating with version control server
+Triggering builds : Polling, Periodic, building based on other projects
+Execution of shell scripts, bash scripts, Ant and Maven targets
+Artifact archival, Publish test results, Email notifications
+
+How Jenkins work - Building
+Once project is successfully created in Jenkins, all future builds are automatic
+Jenkins executes the build in an executer, By default, Jenkins gives one executer per core on the build server
+Jenkins also has a concept of slave build servers for Distribution of load
+
+How Jenkins work – Reporting
+Keeping track of build status : Last success and failure & 'Weather’ – build trend
+These can be greatly enhanced with the use of pre-build plugins : Unit test coverage & Test result trending
+
+Jenkins plugin system can enable a wide range of features including (but certainly not limited to)
+SCM : Git, Subversion
+Testing : Selenium, TestLink
+Notifications : Twitter, Jabber
+Reporting : Findbugs, Doxygen
+Artifact Saving : Amazon S3, SCP
+Triggers : Jabber, Directory watchers
+External integration : GitHub, Bugzilla, JIRA
+Role-based Authorization Strategy
+sonar cube
+jacoco
+Mask Passwords Plugin
+When activating the Mask passwords option in a job, the builds' Password Parameters are automatically masked from the console.
+Make sure to configure in the Mask Passwords - Configuration section in Jenkins, which kind of build parameters have to be automatically masked in the console
+
+Authorization:
+Anyone can do anything		
+Legacy mode	
+Logged-in users can do anything
+Matrix-based security
+Project-based Matrix Authorization Strategy	
+Role-Based Strategy
+

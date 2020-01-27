@@ -1,0 +1,129 @@
+ Installing plugins in Execution Jenkins
+
+SSH Slaves: v1.26 
+GitLab Plugin: v1.5.9
+Discard Old Build plugin: v1.05
+Persistent Build Queue Plugin: v0.1.1
+Robot Framework: v1.6.4
+Workspace Cleanup Plugin: v0.34
+Xvfb plugin: v1.1.3
+
+20.20 Adding Slaves to Execution Jenkins
+Slave is a VM that would be added to Execution Jenkins to run jobs. 
+For Execution Jenkins at least two VMs should be created and should be added as slaves.
+Following are minimum hardware specifications to create two VMs.
+VM 1:
+Host OS: RHEL-7 or CentOS-7 64bit
+Number of vCPUs: 2
+RAM (in GB): 8
+Disk Space (in GB): 50
+VM 2:
+Host OS: UBUNTU-16.04 64bit
+Number of CPUs: 2
+RAM (in GB): 8
+Disk Space (in GB): 50
+Following are the software installations or configurations required in the VM 1 to make it a slave.
+Python 2.7.x or higher
+Check Python version
+$ python --version
+
+wget
+$ sudo yum install wget -y
+
+epel
+Download epel-release rpm package 
+$ sudo wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+Run the epel-release rpm package
+$ sudo yum install epel-release-latest-7.noarch.rpm -y
+
+pip
+Install pip package
+$ sudo yum install python-pip -y
+
+JSON Query Processor
+$ sudo yum install jq -y
+
+zip
+$ sudo yum install zip -y
+
+unzip
+$ sudo yum install unzip -y  
+
+Git Client
+$ sudo yum install git -y 
+
+Java 1.8.x
+$ sudo yum install java-1.8.0-openjdk.x86_64 -y
+Check if Java 1.8.x is installed successfully
+$ java --version
+
+Ansible v2.4.4
+$ sudo pip install ansible==2.4.4
+Verify ansible version
+$ ansible --version
+
+Following are the software installations or configurations required in the VM 2 to make it a slave.
+Python 2.7.x
+Check Python version -- If python is not found then pip will install python 
+$ python --version
+
+zip
+$ sudo apt-get install zip -y
+unzip
+$ sudo apt-get install unzip -y
+
+JSON Query Processor
+$ sudo apt-get install jq -y
+
+Git Client
+$ sudo apt-get install git -y 
+
+
+Java 1.8.x
+$ sudo apt-get install oracle-java8-installer
+Check if Java 1.8.x is installed successfully
+$ java --version
+
+pip
+$ sudo apt-get install python-pip python-dev build-essential -y
+Install following packages using pip
+
+psycopg2
+pymongo
+requests
+robotframework
+robotframework-angularjs
+robotframework-databaselibraryi
+robotframework-mongodblibrary
+robotframework-requests
+robotframework-selenium2library
+selenium
+xlrd
+xlutils
+xlwt
+
+To install all above library packages at once run following command
+$ for pkg in "psycopg2 pymongo requests robotframework robotframework-angularjs robotframework-databaselibrary robotframework-mongodblibrary robotframework-requests robotframework-selenium2library selenium xlrd xlutils xlwt"; do pip install $pkg --proxy=10.158.100.1:8080; done
+Note:
+Replace "10.158.100.1:8080" with "proxy_ip_address:proxy_port" with respect to organization.
+
+xvfb driver
+$ sudo apt-get install fonts-liberation xdg-utils libxss1 libappindicator1 libindicator7 -y
+$ sudo apt-get update -y
+$ sudo apt-get install xvfb -y
+
+Chrome
+$ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+$ sudo dpkg -i google-chrome-stable_current_amd64.deb
+Install dependencies of Chrome
+$ sudo apt-get -f install -y
+$ sudo apt-get update -y
+Check Chrome version
+$ google-chrome --version
+
+Chrome Driver
+Download Chrome driver based on the version of Chrome.
+To check compatibility check, visit http://chromedriver.chromium.org/downloads
+$ sudo wget https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+$ unzip chromedriver_linux64.zip
+$ sudo cp chromedirver /usr/bin/

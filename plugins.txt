@@ -1,0 +1,23 @@
+manage jenkins -> manage users
+manage jenkins _> system log
+
+sonaqube plugin for jenkins
+sonar quality gates plugin
+monitoring
+deploy to container plugin
+disk-uasge plugin'backup plugin
+bild monitor view
+augit trail plugin--> keep a log of who executed specific jenkins operations
+workspace cleanup plugin
+EnvInject plugin
+
+
+securing jenkins
+User management
+
+Role-based security
+Authorization->matrix-based security
+
+Project-based security
+Authorization->project-based-matrix-based security
+periodic backup
