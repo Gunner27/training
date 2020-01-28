@@ -1,0 +1,84 @@
+client --> create a login page for ProductA
+
+GOAL: 
+	1. QUALITY RELEASE
+	2. IMMEDIATE RELEASE
+	3. COST REDUCTION
+
+==================================================
+DEVOPS -->
+	NOT A TOOL
+	NOT A TEAM
+	NOT A ROLE
+
+
+	CULTURE & MINDET CHANGE
+	AUTOMATION
+	SHARING & LEARNING
+	MONITORING
+
+===================================================
+
+Architect - TRELLO - JIRA - VISUAL STUDIO
+
+DEV - 10 - 10 modules
+	SOURCE CODE INTEGRATION ->> SVN --> GIT --> TFS
+        STATIC CODE ANALYSIS ->> PMD, CHECKSTYLE, FINDBUGS (SONARQUBE)
+	BUILD MGMT ->> MAVEN - ANT - MSBUILD - GRADLE
+	DOTNET - JAVA
+	WINDOWS - LINUX
+	JDK5 - JDK 6
+	10 DIFF CONFIG
+	CREATE A DIR STRUCTURE
+	COPY THE SRC FILE
+	SET THE COMPILER
+	COMPILE
+	UNIT TEST
+	COPY THE BINARY TO DESIRE
+----------------------------------------------
+		20 TIMES IN A DAY
+
+        PACKAGING   
+			APPLICATION BASED PACKAGING - JAR, TAR, ZIP,WAR, DLL, BIN
+			SYSTEM BASED PACKAGING - EXE, MSI, RPM, DEB, DMG
+
+			TOOLS - Create packages
+			INSTALLANYWHERE, INSTALLSHIELD, WIX, ZIP, TAR, WISE, RPM BUILD
+
+		-Package Intergrity
+		-Secured
+		-Easy and avialable 24/7
+		-Admin (Backup, cleanup , restore)
+
+	Repository mgt : PUBLIC REPO: Maven repo, yum, apt, nuget
+			 PRIVATE REPO: SONATYPE NEXUS, ARCHIVA, ARTIFACTORY
+-------------------------------------------------------------------------
+	Deploy mgmt
+			100 server deploymemt
+			50 Windows - 50 LINUX   --> 5 MIN
+                        24 MSSQL - 25 MYSQL - 25 POSTGRES -25 MONGODB
+
+		HOW CAN YOU GET THE 100 SERVERS IN 2MINS?
+		HOW CAN YOU DEPLOY 100 SERVERS with 100 dif spec in 3 min 
+===================================================================================
+                        
+
+QA
+ 	ACCEPTANCE TEST AUTIOMATION  -> Functional,smoke
+	FEEDBACK - PASS || FAIL
+        SHARE WITH TEAM IMMEDIATELY
+
+          CODE COVERAGE - % of testing done
+          JACOCO,COVERITY,COBERTURA,EMMA
+
+IT       AWS - AZURE -VMWARE -NETWORKING -DOCKER -DEPLOYMEMT
+DB       
+BUILD & RELEASE
+OPERATIONS - deploy to production and manage
+
+
+==============================================================
+JIRA -> GIT -> SONARQUBE -> MAVEN -> JAR/WAR -> NEXUS/ARTIFACTORY -> CHEF/ANSIBLE ->AT -> RELEASE
+
+===========================jenkins==================================
+	
