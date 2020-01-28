@@ -1,0 +1,33 @@
+node('maven') {
+   // define commands
+   def mvnCmd = "/opt/apache-maven-3.5.4/bin/"
+   stage('Checkout') {
+        //cloning project from Gitlab
+  git branch: 'master', url: 'http://192.168.122.229/root/sample-project-java.git'
+   }
+   
+   stage('Build') {
+      sh "${mvnCmd}mvn clean package -DskipTests=true"
+   }
+   
+   stage ('Test-JUnit') {
+         sh "${mvnCmd}mvn test surefire-report:report"
+      } 
+
+    stage('static code analysis') {
+       sh "${mvnCmd}mvn sonar:sonar -Dsonar.host.url=http://192.168.122.159:9000/ -DskipTests=true"
+   } 
+  
+   stage('artifactory') {
+       sh '''
+			curl -v http://192.168.122.17:8081/repository/cicd-repo/ --user admin:admin123 --upload-file $WORKSPACE/target/*.war
+		'''
+   }
+	
+	stage('Deploy') {
+	    sshagent(['jenkins_slave_tomcat']) {
+            sh ' scp -o StrictHostKeyChecking=no $WORKSPACE/target/tomcatdeploymnetdemo.war root@192.168.122.36:/opt/tomcat/webapps'
+       }
+           
+  }
+}
