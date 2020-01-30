@@ -1,0 +1,6 @@
+"C:\Program Files\ViusualSVN Server\bin\svnlook.exe" log -t %2 %1 | FindStr [a-zA-Z0-9]
+IF %ERRORLEVEL% EQU 0 GOTO OK
+echo "a comment for a commit is must" >&2
+exit 1
+:OK
+exit 0
