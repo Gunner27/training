@@ -1,0 +1,12 @@
+https://medium.com/@elle.florio/the-svn-dockerization-84032e11d88d
+https://hub.docker.com/r/elleflorio/svn-server/
+https://gist.github.com/dpmex4527/1d702357697162384d31d033a7d505eb
+https://github.com/puzzle/svn-docker-builder
+https://github.com/nichochen/openshift-tomcat-svn
+https://github.com/devop-mmcgrath/openshift-svn-cartridge
+https://github.com/openshift/library
+https://www.tutorialspoint.com/openshift/openshift_getting_started.html
+https://blog.openshift.com/part-2-creating-a-template-a-technical-walkthrough/
+https://docs.openshift.com/container-platform/3.5/dev_guide/templates.html
+https://docs.openshift.com/container-platform/3.7/dev_guide/templates.html#overview
+https://www.ibm.com/cloud/blog/deploying-helm-charts-on-openshift
