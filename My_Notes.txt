@@ -63,3 +63,55 @@ Matrix-based security
 Project-based Matrix Authorization Strategy	
 Role-Based Strategy
 
+Job Description
+
+We are looking for a passionate and self-motivated Lead Cloud Architect with a deep Software development background who wants to be at the cutting edge of cloud services. You are, at core, an expert developer with flair for designing and solving Public cloud adoption challenges with AWS and or Azure.
+
+You will help design, architect and develop new features for the organization’s products for AWS and with Clients. You will be required to work with different prestigious clients, product management, engineering, and operations team for complete ownership of delivering features assigned. If this describes you and you’re ready to attack some of the most complex problems in the industry, then it’s time for you to take on the challenge of being a Cloud Architect as part of DevOps & Cloud Solutions team at TA Digital.
+
+Key Responsibilities
+Looking for Industry Leading Could Professionals for a Leadership Role at TA Digital.
+Domain leadership in AWS or Microsoft Azure cloud technologies.
+Working closely with our clients, Consulting professionals design, build and implement strategies that can help enhance business performance. They develop specialized expertise- strategic, industry, functional, technical- in a diverse project environment that offers multiple opportunities for career growth.
+Overseeing the production and implementation of solutions covering multiple cloud technologies, associated Infrastructure/application architecture, development, and operating models.
+Helping to integrate large-scale systems involving on-premises technology and public cloud platforms.
+Driving enterprise business, application, and integration architecture environment.
+Implementing programs/interventions that prepare the organization for the implementation of new business processes
+Assisting our clients to build the required capabilities for growth and innovation in order to sustain high performance
+Managing multi-disciplinary teams to shape, sell, communicate and implement programs.
+Developing our offerings and assets.
+Design and develop automated software solutions.
+An active problem solver who enjoys challenging situations and creating solutions
+Can write code – in any language; shell scripting, PHP, ruby, python, java, whatever (ideally in multiple languages) – and you have implemented some of your stuff into a production environment.
+Design, Assess the customer environments and prepare a roadmap on Azure deployment and migration.
+Create a conceptual, logical and physical design for cloud-based solutions for platforms.
+Develop and present technical solutions and configurations for infrastructure as a service.
+Are experienced and comfortable working with different types of clouds.
+Maintain established service agreements to manage customer expectations and quality standards.
+Create a standard approach and best practice to create and maintain automated test plans, test scripts, test suites, etc.
+Proactively seek training and developmental activities related to cloud services.
+Provide technical direction and oversight to cloud implementation teams.
+
+
+Experience Requirement
+Minimum 5 years of Cloud Engineering Experience and a total of 10+ Years of Software development experience.
+Cloud platforms – AWS, Azure, Google Cloud Platform, Cloud Foundry, Open Shift, Docker, etc., experience in Virtualization Platforms (e.g. VMWare, Hyper-V, etc.).
+Demonstrated application of end-to-end architecture strategies, standards, processes, and tools in their solution designs.
+Develop cloud reference architecture, Define target state cloud architecture, Experience with private and public cloud architectures, pros/cons, and migration considerations.
+Cloud readiness maturity assessment, Planning and assessment of cloud solutions/platforms, Application assessment and migration planning, Business case development, TCO comparisons, and vendor evaluation
+Skills across SCM, Static Code Analyzer, Build and Release, Continuous Integration tools and frameworks such as SVN, GIT, ANT, MVN, Sonar, etc.
+Deep understanding of Cloud Computing and various deployment methodologies Strong knowledge and experience with Automation, DevOps, CI/DC and Orchestration Deployment, provisioning and life cycle management of Azure/AWS services such as VMs, Storage, Network, NoSQL database, Website, network, etc.
+Infrastructure provisioning and management (Puppet, Chef, Ansible)
+
+Job Complexity
+Supports multiple customers and internal teams on an as-needed basis.
+Collaborates with other teams on tools for systems automation.
+Works in conjunction with multiple teams to make sure that the infrastructure and customer applications work harmoniously together.
+Due to the 24X7 operations of the business, must be able to work a flexible work schedule.
+
+
+Mandatory Skillset
+AWS Professional Level Certification (Solution Architect Pro /DevOps Pro) OR AWS Associate Level + Azure Architecting Microsoft Azure Solutions (70-535) Certification.
+Deep understanding of cloud architecture.
+Can write code – in any language; shell scripting, PHP, ruby, python, java, whatever (ideally in multiple languages)
+Hands-on DevOps Tools experience.
